@@ -64,6 +64,10 @@ void loop()
   int iLen = wifi.ReceiveMessage(buf);
   if(iLen > 0)
   {
+    Serial.print(iLen);
+    Serial.print(": ");
+    Serial.println(buf);
+    
     //判断buf是否为规定字符串
     if (strcmp(buf, "HIGH") == 0)
     {
