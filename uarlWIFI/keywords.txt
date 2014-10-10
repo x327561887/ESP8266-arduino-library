@@ -12,7 +12,8 @@ WIFI	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-begin	KEYWORD2Initialize	KEYWORD2
+begin	KEYWORD2
+Initialize	KEYWORD2
 ipConfig	KEYWORD2
 confMode	KEYWORD2
 Reset	KEYWORD2

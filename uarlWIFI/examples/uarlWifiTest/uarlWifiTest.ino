@@ -31,6 +31,10 @@ void ipConfig(byte type, String addr, int port, boolean a = 0, byte id = 0);
 返回接收到的buf的长度
 int ReceiveMessage(char *buf, int MsgLen = 0);
 
+uarlWIFI开发库只能在mega上运行,用的是Serial1端口
+具体教程
+http://www.arduino.cn/thread-7388-1-3.html
+
 例程编写 && 库函数整合
 by .oο麽麽茶㊣ (你们好屌)
 2014/9/18

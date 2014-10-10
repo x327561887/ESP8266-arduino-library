@@ -88,8 +88,6 @@ class WIFI
     void closeMux(byte id); //关闭tcp货udp （多路模式）
     String showIP(void);    //显示本机目前获取的ip地址
     void confServer(byte mode, int port);  //配置服务器
-	
-	String m_rev;
 
 };
 
